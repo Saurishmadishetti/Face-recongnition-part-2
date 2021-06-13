@@ -1,0 +1,40 @@
+<head>
+    <title>Face Recongnition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   
+   <link rel="stylesheet" href="style.css">
+  
+    
+</head>
+<body>
+  <h1 id="main_head">FACE RECONGNITION WEB APP</h1>
+  <h3 id="sub_head">The model is trained to identify these images</h3>
+  <br>
+  <div id="container">
+    <div id="father_div">Father</div>
+    <br>
+    <div id="brother_div">Brother</div>
+    <br>
+    <div id="Sister_div">Sister</div>
+  </div> 
+  <br>
+  <br>
+  <div id="camopen" class="pull-left"></div>
+  <br>
+  <div id="result_div" class="pull-right"></div>
+  <button class="btn btn-info" onclick="take_snapshot()">Click image</button>
+  <br>
+  <br>
+  <button class="btn btn-success" onclick="check_image()">Identify image</button>
+  <br><br>
+  <p style="font-size: 22px;">object:<span id="name_of_object"></span></p>
+  <p style="font-size: 22px;">Accuracy:<span id="object_accuracy"></span></p>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+<script src="main.js"></script>

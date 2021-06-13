@@ -1,0 +1,38 @@
+body{
+    background-color: orange;
+    text-align: center;
+}
+#main_head{
+    font-size: 40px;
+    color: floralwhite;
+}
+#sub_head{
+    color: yellow;
+}
+#father_div{
+    background-color: green;
+    color: black;
+    font-size: 20px;
+}
+#brother_div{
+    background-color: darkblue;
+    color: gold;
+    font-size: 20px;
+}
+#sister_div{
+    background-color: pink;
+    color: purple;
+    font-size: 20px;
+}
+#camopen{
+    width: 450px;
+    height: 280px;
+    border: 5px solid blue;
+    margin-left: 30px;
+}
+#result_div{
+    width: 350px;
+    height: 300px;
+    border: 5px solid blue;
+    margin-right: 30px;
+}
